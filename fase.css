@@ -1,0 +1,280 @@
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.center {    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200vh;
+    
+} 
+
+button {
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 20vh;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    color: black;
+    background-color: #45a049;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.sapo {
+    border: 5px solid #25fc09;
+}
+
+.walter {
+    border: 5px solid yellow;
+}
+
+.elmo {
+    border: 5px solid red;
+}
+
+
+/*   
+align-items = Linhas
+justify-content = Coluna
+*/
+
+
+.fase1 {
+    display: flex;
+    justify-content: end;
+    width: 200vh;
+}
+
+
+.fase2 {
+    display: flex;
+    justify-content: center;
+    width: 200vh;
+}
+
+
+.fase3 {
+    display: flex;
+    justify-content: space-around;
+    width: 200vh;
+}
+
+
+.fase4 {
+    display: flex;
+    justify-content: space-between;
+    width: 200vh;
+}
+
+
+.fase5 {
+    display: flex;
+    align-items: end;
+    height: 100vh;
+}
+
+
+.fase6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 200vh;
+}
+
+
+.fase7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 100vh;
+    width: 200vh;
+}
+
+
+.fase8 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    width: 200vh;
+    height: 100px;
+}
+
+
+.fase9 {
+    display: flex;
+    flex-direction:column;
+    height: 50vh;
+}
+
+
+.fase10 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+
+.fase11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+}
+
+
+.fase12 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.fase13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vh;
+    height: 97vh;
+}
+
+
+.fase14 {
+    display: flex;
+}
+
+.fase14verde {
+    order: 1;
+}
+
+.fase14vermelho {
+    order: 2;
+}
+
+.fase14amarelo {
+    order: 3;
+}
+
+
+.fase15 {
+    display: flex;
+}
+
+.fase15vermelho {
+    order: -1;
+}
+
+
+.fase16 {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.fase16amarelo {
+    align-self: flex-end;
+}
+
+
+.fase17 {
+    display: flex;
+    height: 100vh;
+}
+
+.fase17amarelo {
+    order: 2;
+    align-self: flex-end;
+
+}
+
+
+.fase18 { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 70vh;
+    justify-content: start;
+}
+
+
+.fase19 {
+    display: flex;
+    justify-content: space-around;
+    width: 80vh;
+}
+
+.fase19colum {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+
+.fase20 {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80vh;
+    height: 50vh;
+}
+
+
+.fase21 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 70vh;
+}
+
+
+.fase22 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 70vh;
+    height: 100vh;
+}
+
+
+.fase23 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    width: 100vh;
+    height: 80vh;
+}
+
+
+.fase24 {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+    width: 70vh;
+    height: 80vh;
+}
